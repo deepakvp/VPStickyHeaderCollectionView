@@ -10,7 +10,7 @@ import UIKit
 
 let cityCellReuseIdentifier : String = "cityCollectionCell"
 let continentHeaderViewReuseIdentifier : String = "continentHeaderView"
-let stickyheaderBackgroundColor : UIColor = UIColor(red: 219.0/255, green:219.0/255, blue:219.0/255, alpha:0.8);
+let stickyheaderBackgroundColor : UIColor = UIColor(red: 219.0/255, green:219.0/255, blue:219.0/255, alpha:0.8)
 let continentHeaderViewHeight = 40.0
 
 class CountriesViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
@@ -63,7 +63,7 @@ class CountriesViewController: UIViewController, UICollectionViewDelegate, UICol
   }
 
   func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: UICollectionViewLayout!, referenceSizeForHeaderInSection section: Int) -> CGSize {
-    return CGSizeMake(collectionView.frame.size.width, continentHeaderViewHeight)
+    return CGSizeMake(collectionView.frame.size.width, CGFloat(continentHeaderViewHeight))
   }
 
   func populateDataSource() {
