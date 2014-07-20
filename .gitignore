@@ -1,6 +1,13 @@
-
-*.xcworkspacedata
-
-*.xcscheme
-
-*.plist
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
