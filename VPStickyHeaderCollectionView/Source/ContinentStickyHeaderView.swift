@@ -10,7 +10,7 @@ import UIKit
 
 class ContinentStickyHeaderView: UICollectionReusableView {
 
-  @IBOutlet var headerLabel : UILabel
+  @IBOutlet weak var headerLabel : UILabel!
 
   func setupStickyHeaderView(header : String) {
       headerLabel.text = header

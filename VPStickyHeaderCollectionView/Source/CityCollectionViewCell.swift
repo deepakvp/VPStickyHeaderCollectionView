@@ -10,7 +10,7 @@ import UIKit
 
 class CityCollectionViewCell: UICollectionViewCell {
 
-  @IBOutlet var cityNameLabel : UILabel
+  @IBOutlet weak var cityNameLabel : UILabel!
 
   func setUpCellWithCityName(cityName: String) {
       cityNameLabel!.text = cityName
